@@ -11,5 +11,16 @@ The goal is to help every member learn at their own pace, build a strong foundat
 
 Each project we'll end up building will have its own dedicated repository, while this repo remains the go-to reference library for all shared documentation, example codes, and component explanations.
 
+---
+
+## 📅 Weekly Reference Table
+
+| Week | Topic | Folder Link | Summary |
+|------|--------|-------------|----------|
+| 1 | Ultrasonic Sensor | [week1_ultrasonic_sensor](./week1_ultrasonic_sensor/) | Understanding how ultrasonic sensors measure distance, wiring on breadboard, live testing |
+| 2 | Servo Motor Control *(up next)* | Coming soon | Interfacing servos with Arduino for precise motion control |
+
+---
+
 See ya  
 🤖
