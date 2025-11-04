@@ -61,9 +61,9 @@ Be creative with your response!
 ## 💬 Community Highlights
 
 Shoutout to **Wale** for the awesome LED randomizer game from last week’s circuit challenge 🎉  
-Two new members also decided to officially switch to the Robotics track after this session — welcome aboard!
 
 ---
 
 If you have any questions, feel free to reach out to **Henry** or **Erica** anytime.  
 Have a great week ahead ✌️
+
