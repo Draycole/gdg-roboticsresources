@@ -4,10 +4,10 @@ Welcome to the **Circuit Challenges** section! 🎯
 Here’s where all our weekly mini-projects, creative assignments, and winning submissions live.
 
 These challenges are designed to help you:
-> - Apply what we’ve learned in study jams  
-> - Get hands-on practice building and simulating circuits  
-> - Learn from other members’ solutions  
-> - Have fun experimenting with new components  
+- Apply what we’ve learned in study jams  
+- Get hands-on practice building and simulating circuits  
+- Learn from other members’ solutions  
+- Have fun experimenting with new components  
 
 Each challenge will have:
 - A **description** of the task  
@@ -58,6 +58,6 @@ If you don’t have physical components, you can still participate using simulat
 
 ---
 
-Keep experimenting and sharing your builds — every small project builds confidence and creativity 💡  
+Keep experimenting and sharing your builds 💡  
 
 **— GDG Robotics Team 🤖**
