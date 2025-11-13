@@ -11,6 +11,8 @@ The goal is to help every member learn at their own pace, build a strong foundat
 
 Each project we'll end up building will have its own dedicated repository, while this repo remains the go-to reference library for all shared documentation, example codes, and component explanations.
 
+You can also check out the circuit challenge repo [here](./circuit_challenges) for previous winners, former challenges and this week's task.
+
 ---
 
 ## 📅 Weekly Reference Table
