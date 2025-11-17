@@ -7,7 +7,7 @@
 
 ## 🧩 Challenge Overview
 
-The first GDG Robotics circuit challenge was simple but creative —  
+The first GDG Robotics circuit challenge was simple 
 > **“Do something cool with one or more LEDs.”**
 
 We were free to experiment with **blinking, fading, timing logic, or patterns**, using either **Tinkercad** or **Wokwi** or physical hardware if you had yours.
@@ -43,19 +43,20 @@ You can:
 ## 🥇 Featured Project: Wale’s LED Randomizer Game
 
 **By:** *Wale*  
-**Platform:** Tinkercad Circuits  
-**Concept:** A mini “reaction” game where an LED lights up randomly, and the user must press a button before it switches.  
+<!--- **Platform:** Tinkercad Circuits  --->
+**Concept:** A mini “reaction” game where LED lights up in a random sequence, and the user must press the correct order of the sequence that the LED's came up on .  
 **Highlights:**  
 - Used `random()` to vary LED lighting times  
 - Introduced user interactivity with a push button  
 - Great logic and clean implementation  
 
-**Demo Screenshot:**  
+<!--- **Demo Screenshot:**  
 *(Add image here)*  
 `![LED Randomizer Demo](./media/led_randomizer_screenshot.png)`
 
 **Code:**  
 👉 [View the .ino file here](./code/led_randomizer.ino)
+
 
 ---
 
@@ -66,6 +67,7 @@ See other cool entries here → [submissions/](./submissions)
 Each folder includes the contributor’s name, code, and description.
 
 ---
+--->
 
 ## 🛠️ Tools & References
 
