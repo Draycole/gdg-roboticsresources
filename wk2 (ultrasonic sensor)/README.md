@@ -1,4 +1,4 @@
-# Week 1 — Ultrasonic Sensor
+# Week 2 — Ultrasonic Sensor
 
 Hey everyone 👋  
 Thanks a lot for showing up today; it was a really good time!

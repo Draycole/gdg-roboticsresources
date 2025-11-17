@@ -20,7 +20,7 @@ You can also check out the circuit challenge repo [here](./circuit_challenges) f
 | Week | Topic | Folder Link | Summary |
 |------|--------|-------------|----------|
 | - | Setting up for Robotics| [intro to robotics](./intro%20to%20robotics) | Setting up the software and other things we'll need|
-| 1 | Ultrasonic Sensor | [week1_ultrasonic_sensor](./week1_ultrasonic_sensor/) | Understanding how ultrasonic sensors measure distance, wiring on breadboard, live testing |
+| 1 | Ultrasonic Sensor | [week 2 - ultrasonic sensor](./wk2%20(ultrasonic%20sensor)) | Understanding how ultrasonic sensors measure distance, wiring on breadboard, live testing |
 | 2 | Servo Motor Control *(up next)* | Coming soon | Interfacing servos with Arduino for precise motion control |
 
 ---
