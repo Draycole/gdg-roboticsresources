@@ -21,7 +21,7 @@ Each challenge will have:
 
 | Challenge # | Title | Folder Link | Theme | Winner / Featured Submission |
 |--------------|--------|--------------|--------|-------------------------------|
-| 1 | LED Randomizer Game | [challenge1_led_randomizer](./challenge1_led_randomizer) | Basic Arduino logic & LED control | Wale 💡 |
+| 1 | LED Randomizer Game | [#1](./#1%20-%20LED%20Randomizer) | Basic Arduino logic & LED control | Wale 💡 |
 | 2 | Proximity Alarm System | [challenge2_proximity_alarm](./challenge2_proximity_alarm) | Ultrasonic sensing & distance feedback | TBA |
 | 3 | Coming soon... | – | – | – |
 
