@@ -21,8 +21,8 @@ Each challenge will have:
 
 | Challenge # | Title | Folder Link | Theme | Winner / Featured Submission |
 |--------------|--------|--------------|--------|-------------------------------|
-| 1 | LED Randomizer Game | [#1](./#1%20-%20LED%20Randomizer) | Basic Arduino logic & LED control | Wale 💡 |
-| 2 | Proximity Alarm System | [challenge2_proximity_alarm](./challenge2_proximity_alarm) | Ultrasonic sensing & distance feedback | TBA |
+| 1 | LED Randomizer Game | [#1](https://github.com/Draycole/gdg-roboticsresources/tree/main/circuit%20challenges/%231%20-%20LED%20Randomizer) | Basic Arduino logic & LED control | Wale 💡 |
+| 2 | Proximity Alarm System | [#2]([./challenge2_proximity_alarm](https://github.com/Draycole/gdg-roboticsresources/tree/main/circuit%20challenges/%232%20-%20Ultrasonic%20Sensor%20Response)) | Ultrasonic sensing & distance feedback | Precious 💡 |
 | 3 | Coming soon... | – | – | – |
 
 > 📌 *Each folder contains its own README.md explaining the idea, setup, and code snippets.*
