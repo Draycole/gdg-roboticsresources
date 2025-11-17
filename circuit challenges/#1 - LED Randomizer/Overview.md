@@ -67,7 +67,7 @@ See other cool entries here → [submissions/](./submissions)
 Each folder includes the contributor’s name, code, and description.
 
 ---
---->
+
 
 ## 🛠️ Tools & References
 
@@ -82,6 +82,7 @@ Each folder includes the contributor’s name, code, and description.
 👉 [Challenge 2 – Proximity Alarm System](../challenge2_proximity_alarm)
 
 ---
+--->
 
 Keep experimenting and sharing your builds!  
 Every LED blink today builds the logic for a full robot tomorrow ⚙️  
