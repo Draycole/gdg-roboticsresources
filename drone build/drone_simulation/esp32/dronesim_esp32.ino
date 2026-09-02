@@ -25,7 +25,7 @@ void setup() {
 void loop() {
   mpu.update();
 
-  // 100Hz is seems like it should be decent enough. 
+  // 100Hz seems like it should be decent enough. 
   if((millis() - timer) > 500) { 
     // printing in this format: Roll,Pitch,Yaw
     Serial.print(mpu.getAngleX()); 
