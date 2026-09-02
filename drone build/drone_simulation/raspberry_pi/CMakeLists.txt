@@ -17,7 +17,7 @@ target_link_libraries(raspberry_pi
     m
 )
 
-# This is what makes it show up as a COM port over USB
+# This will allow my pico to show up as a COM port once flashed and powered
 pico_enable_stdio_usb(raspberry_pi 1)
 pico_enable_stdio_uart(raspberry_pi 0)
 
