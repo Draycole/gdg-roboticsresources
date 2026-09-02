@@ -2,8 +2,6 @@
 #include "pico/stdlib.h"
 #include <string.h>
 
-// ── low-level helpers ────────────────────────────────────────────────────────
-
 static bool reg_write(i2c_inst_t *i2c, uint8_t reg, uint8_t val) {
     uint8_t buf[2] = {reg, val};
     int ret = i2c_write_blocking(i2c, MPU6050_ADDR, buf, 2, false);
@@ -11,7 +9,7 @@ static bool reg_write(i2c_inst_t *i2c, uint8_t reg, uint8_t val) {
 }
 
 static bool reg_read(i2c_inst_t *i2c, uint8_t reg, uint8_t *dst, size_t len) {
-    // Send register pointer, then read
+    // send register pointer, then read
     int ret = i2c_write_blocking(i2c, MPU6050_ADDR, &reg, 1, true); // true = repeated start
     if (ret != 1) return false;
     ret = i2c_read_blocking(i2c, MPU6050_ADDR, dst, len, false);
