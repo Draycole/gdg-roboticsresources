@@ -12,14 +12,12 @@
 
 // ── complementary filter constant ────────────────────────────────────────────
 // 0.98 = trust gyro 98%, correct with accel 2% each step
-// Increase toward 1.0 for smoother but driftier output
-// Decrease toward 0.9 for more accel correction but noisier
 #define ALPHA 0.98f
 
 #define LOOP_MS 10   // 100Hz
 
 int main() {
-    stdio_init_all();   // enables USB serial (shows up as COM port)
+    stdio_init_all();   
     sleep_ms(2000);     // give host time to open the port
 
     // ── I2C init ─────────────────────────────────────────────────────────────
@@ -55,26 +53,26 @@ int main() {
             continue;
         }
 
-        // Apply gyro calibration offsets
+        // apply gyro calibration offsets
         d.gx -= offsets.gx;
         d.gy -= offsets.gy;
         d.gz -= offsets.gz;
 
-        // Delta time in seconds
+        // delta time in seconds
         uint32_t now = to_ms_since_boot(get_absolute_time());
         float dt = (now - last_time) / 1000.0f;
         last_time = now;
 
-        // Accel-derived angles (degrees) — reliable when stationary
+        // accel-derived angles (degrees) — reliable when stationary
         float accel_roll  =  atan2f(d.ay, d.az) * 180.0f / (float)M_PI;
         float accel_pitch = -atan2f(d.ax, d.az) * 180.0f / (float)M_PI;
 
-        // Complementary filter — fuse gyro integration + accel correction
+        // complementary filter — fuse gyro integration + accel correction
         roll  = ALPHA * (roll  + d.gx * dt) + (1.0f - ALPHA) * accel_roll;
         pitch = ALPHA * (pitch + d.gy * dt) + (1.0f - ALPHA) * accel_pitch;
         yaw  += d.gz * dt;  // no mag, so yaw is gyro-only (drifts over time)
 
-        // Same CSV format your Python expects: Roll,Pitch,Yaw
+        // should be the same .csv format the python script is listening for
         printf("%.2f,%.2f,%.2f\n", roll, pitch, yaw);
 
         sleep_ms(LOOP_MS);
