@@ -25,9 +25,9 @@ void setup() {
 void loop() {
   mpu.update();
 
-  // 100Hz is perfect for real-time physics
+  // 100Hz is seems like it should be decent enough. 
   if((millis() - timer) > 500) { 
-    // Format: Roll,Pitch,Yaw
+    // printing in this format: Roll,Pitch,Yaw
     Serial.print(mpu.getAngleX()); 
     Serial.print(",");
     Serial.print(mpu.getAngleY());
