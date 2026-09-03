@@ -3,6 +3,7 @@
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
 #include "mpu6050.h"
+sewds 
 
 // ── pin config ───────────────────────────────────────────────────────────────
 #define I2C_PORT    i2c0
