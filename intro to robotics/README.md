@@ -9,6 +9,7 @@ By the end of this week, you should be able to:
 - Install and set up the **Arduino IDE**
 - Understand how Arduino code is structured (`setup()` and `loop()`)
 
+- Simulate simple circuits on **Tinkercad** or **Wokwi**
 - Complete the LED Circuit Challenge
 
 ## ⚙️ Step 1 – Setting Up the Arduino IDE
