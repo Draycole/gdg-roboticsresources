@@ -8,8 +8,7 @@ This week, we’ll set up our tools, understand the basics of the Arduino ecosys
 By the end of this week, you should be able to:
 - Install and set up the **Arduino IDE**
 - Understand how Arduino code is structured (`setup()` and `loop()`)
-- Write and upload your first sketch
-- Simulate simple circuits on **Tinkercad** or **Wokwi**
+
 - Complete the LED Circuit Challenge
 
 ## ⚙️ Step 1 – Setting Up the Arduino IDE
