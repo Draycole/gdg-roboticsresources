@@ -3,7 +3,7 @@
 Hey guys 👋
 Hope we're doing good.
 
-
+This repository's going to be the reference hub for the Robotics Track.
 
 It contains all supporting materials used throughout our study jams — setup guides, C++ refreshers, tutorials on sensors, motor drivers, and circuit integration.
 
