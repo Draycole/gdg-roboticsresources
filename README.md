@@ -1,6 +1,6 @@
 # GDG On Campus: Covenant University <br>Robotics Track: Resource Hub
 
-<marquee>Erica | Wale | Osayi | Ayo | Demilade | Nduka | Somto | Winston | Karma | Esther | Kamiye | Daniella | Othniel | Seun | Henry | Leo | </marquee>
+<marquee>Erica | Stephanie | Wale | Osayi | Ayo | Demilade | Nduka | Somto | Winston | Karma | Esther | Kamiye | Daniella | Othniel | Seun | Henry | Leo | </marquee>
 
 This repo's going to be the reference hub for the Robotics Track.
 
