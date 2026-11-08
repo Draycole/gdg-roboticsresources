@@ -1,30 +1,39 @@
-# GDG Robotics & Embedded Systems Track - Resource Hub
+# GDG On Campus: Covenant University <br>Robotics Track: Resource Hub
 
-Hey guys 👋
-Hope we're doing good.
+<marquee>Erica | Wale | Osayi | Ayo | Demilade | Nduka | Somto | Winston | Karma | Esther | Kamiye | Daniella | Othniel | Seun | Henry | Leo | </marquee>
 
-This repository's going to be the reference hub for the Robotics Track.
+This repo's going to be the reference hub for the Robotics Track.
 
-It contains all supporting materials used throughout our study jams — setup guides, C++ refreshers, tutorials on sensors, motor drivers, and circuit integration.
+Formally, a learning path and reference library for robotics and embedded systems, built by the GDG on Campus Robotics Track @ Covenant University. It takes you from your first blinking LED to simulation, control, and ROS, with working code, wiring notes, and a curated map of the best open material elsewhere.
 
-The goal is to help every member learn at their own pace, build a strong foundation in embedded systems, and gain the confidence to take on full robotics projects.
+Every folder is written so you can use it without having attended our sessions.
 
-Each project we'll end up building will have its own dedicated repository, while this repo remains the go-to reference library for all shared documentation, example codes, and component explanations.
+## The learning path
 
-You can also check out the circuit challenge repo [here](./circuit_challenges) for previous winners, former challenges and this week's task.
+| Stage | Folder | You will learn | Needs |
+|---|---|---|---|
+| 0 | [00-start-here](00-start-here) | Setting up everything you'll need, how to use this repo, a roadmap | Nothing |
+| 1 | [01-foundations](01-foundations) | Electronics basics, reading datasheets, C/C++ for hardware | Nothing |
+| 2 | [02-sensors-and-actuators](02-sensors-and-actuators) | Ultrasonic sensors, servos, motor drivers, IMUs | Stage 1 |
+| 3 | [03-embedded-systems](03-embedded-systems) | Beyond Arduino: Pico, ESP32, I2C/SPI/UART, interrupts, timers | Stage 2 |
+| 4 | [04-control-and-simulation](04-control-and-simulation) | PID, state-space/LQR, PyBullet and MuJoCo, digital twins | Stage 3 |
+| 5 | [05-ros-and-manipulation](05-ros-and-manipulation) | ROS 2, URDF, kinematics, simulating arms and cobots | Stage 4 |
 
----
+Alongside the path:
 
-## 📅 Weekly Reference Table
+- [projects](projects): showcase of what the track has built, each with its own repo
+- [circuit-challenges](circuit-challenges): past challenges, winning builds, and the current task
+- [curated-links](curated-links): books, courses, and open-source repos worth your time
 
-| Week | Topic | Folder Link | Summary |
-|------|--------|-------------|----------|
-| 0 | Setting up for Robotics| [intro](./intro%20to%20robotics) | Setting up the software and other things we'll need|
-| 2 | Ultrasonic Sensor | [week 2](./wk2%20(ultrasonic%20sensor)) | Understanding how ultrasonic sensors measure distance, wiring on breadboard, live testing |
-| 3 | Servo Motor Control | [week 3](./wk3%20(servo%20motors)) | Interfacing servos with Arduino for precise motion control |
-| - | Drone Digital Twin | [repo](./drone%20build) | Setup files for a simulation environment for a handheld drone prototype. |
+## How the track uses this repo
 
----
+Depending on the session, 
+Our semester schedule maps onto the stages above (week 0 setup, week 2 ultrasonic, week 3 servos, and so on). If you are learning on your own, ignore the weeks and follow the stages.
 
-See ya  
-🤖
+## Contributing
+
+Found a good resource, a bug in our code, or built something worth featuring? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+Code is MIT licensed. Written material is CC BY 4.0. Third-party material linked here keeps its own license.
