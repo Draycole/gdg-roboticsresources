@@ -31,6 +31,26 @@ Depending on the session, the work the track would do will either follow the sam
 The semester schedule would usually map onto the stages above (week 0 setup, week 2 ultrasonic, week 3 servos, and so on).  
 If you are learning on your own, ignore the weeks and follow the stages.
 
+## Repo Structure
+
+```
+gdg-roboticsresources/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── 00-start-here/ 
+├── 01-foundations/
+├── 02-sensors-and-actuators/
+├── 03-embedded-systems/
+├── 04-control-and-simulation/
+├── 05-ros-and-manipulation/
+├── projects/
+├── curated-links/
+└── cohorts/
+    ├── 2025-26/
+    └── 2026-27/
+
+```
 ## Contributing
 
 Found a good resource/course/book/website, a bug in the code, or you've built something worth featuring? See [CONTRIBUTING.md](CONTRIBUTING.md) for the steps to take to have it indexed in the repo.
