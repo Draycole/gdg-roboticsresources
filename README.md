@@ -27,12 +27,13 @@ Alongside the path:
 
 ## How the track uses this repo
 
-Depending on the session, 
-Our semester schedule maps onto the stages above (week 0 setup, week 2 ultrasonic, week 3 servos, and so on). If you are learning on your own, ignore the weeks and follow the stages.
+Depending on the session, the work the track would do will either follow the same manner as the stages above, or more time may be spent on one aspect of robotics. <br> 
+The semester schedule would usually map onto the stages above (week 0 setup, week 2 ultrasonic, week 3 servos, and so on).  
+If you are learning on your own, ignore the weeks and follow the stages.
 
 ## Contributing
 
-Found a good resource, a bug in our code, or built something worth featuring? See [CONTRIBUTING.md](CONTRIBUTING.md).
+Found a good resource/course/book/website, a bug in the code, or you've built something worth featuring? See [CONTRIBUTING.md](CONTRIBUTING.md) for the steps to take to have it indexed in the repo.
 
 ## License
 
