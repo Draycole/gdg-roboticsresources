@@ -10,7 +10,7 @@ The electronics and programming you need before touching sensors.
 - First programs: blink, button input, serial output
 
 ## Status
-Nothing here yet. Material from `00-start-here/intro-to-robotics` that is general can move here.
+Nothing here yet. Material from `00-start-here/intro-to-robotics` that is general is going to be moved here.
 
 ## Done when you can
 Wire an LED and a button on a breadboard, explain why the resistor is there, and write the code without copying it.
