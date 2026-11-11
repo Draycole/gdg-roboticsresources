@@ -7,7 +7,7 @@ Make things move correctly, and test them in simulation before building hardware
 | Project | What it is | Status |
 |---|---|---|
 | [self-balancing-robot](self-balancing-robot) | A two-wheeled robot balanced three ways: PID, LQR, and a PPO policy trained in MuJoCo | Simulation working; hardware planned for semester 2 |
-| [drone-digital-twin](drone-digital-twin) | IMU data from a handheld drone prototype streamed into a PyBullet simulation | In progress |
+| [drone-build](drone-build) | IMU data from a handheld drone prototype streamed into a PyBullet simulation | In progress |
 
 ## Planned
 
